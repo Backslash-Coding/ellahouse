@@ -1,0 +1,30 @@
+.on { transition: all .75s; opacity: 0; transform: translate3d(0,75px,0); }
+.in { opacity: 1; transform: none; }
+
+.onx { transform: none; }
+
+.on0 { transition-delay: 0; }
+.on1 { transition-delay: .15s; }
+.on2 { transition-delay: .3s; }
+.on3 { transition-delay: .45s; }
+.on4 { transition-delay: .6s; }
+.on5 { transition-delay: .75s; }
+.on6 { transition-delay: .9s; }
+.on7 { transition-delay: 1.05s; }
+.on8 { transition-delay: 1.2s; }
+.on9 { transition-delay: 1.35s; }
+
+@media (max-width: 767.5px) {
+
+    .on0 { transition-delay: 0; }
+    .on1 { transition-delay: 0; }
+    .on2 { transition-delay: 0; }
+    .on3 { transition-delay: 0; }
+    .on4 { transition-delay: 0; }
+    .on5 { transition-delay: 0; }
+    .on6 { transition-delay: 0; }
+    .on7 { transition-delay: 0; }
+    .on8 { transition-delay: 0; }
+    .on9 { transition-delay: 0; }
+
+}

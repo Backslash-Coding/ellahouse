@@ -1,0 +1,27 @@
+
+    @font-face {
+        font-family: 'Cambon';
+        src: local('Cambon Bold'), local('Cambon-Bold'),
+            url('../fonts/Cambon-Bold.woff2') format('woff2'),
+            url('../fonts/Cambon-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Sofia Pro';
+        src: local('Sofia Pro Regular'), 
+            url('../fonts/SofiaProRegular.woff2') format('woff2'),
+            url('../fonts/SofiaProRegular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Sofia Pro';
+        src: local('Sofia Pro Medium'),
+            url('../fonts/SofiaProMedium.woff2') format('woff2'),
+            url('../fonts/SofiaProMedium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+    }
