@@ -40,8 +40,8 @@
                         <p>Progressive businesses want a workplace that supports the lifestyle and wellbeing of their team.</p>  
                     </div>
                     <div class="buttons">
-                        <a class="button" href="#"><span>ENQUIRE</span></a>
-                        <a class="button" href="#"><span>ELLA HOUSE BROCHURE</span></a>
+                        <p><a href="#"><span>ENQUIRE</span></a></p>
+                        <p><a href="#"><span>ELLA HOUSE BROCHURE</span></a></p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@
                     <h2>We are waiting to welcome you.</h2>
                     <p>Answer a few simple questions, select your private suite & choose your custom fit-out.</p>
                 </div>
-                <div class="buttons">
-                    <a class="white button" href="#"><span>VIEW BUILDING DETAILS</span></a>
+                <div class="white buttons">
+                    <p><a href="#"><span>VIEW BUILDING DETAILS</span></a></p>
                 </div>  
             </div>
         </div>
@@ -81,7 +81,7 @@
                         <p>Experience a layered workspace inspired by historic context, rich with exquisite Georgian detailing and enhanced with every modern convenience.</p>
                     </div>
                     <div class="buttons">
-                        <a class="play button" href="https://www.youtube.com/embed/TROgLeCng30"><span>Play video</span></a>
+                        <p><a class="play" href="https://www.youtube.com/embed/TROgLeCng30"><span>Play video</span></a></p>
                     </div>  
                 </div>
             </div>
@@ -114,8 +114,8 @@
                                         <h3>11 meeting rooms</h3>
                                         <p>with video conferencing &amp; leading wifi technology</p>
                                     </div>
-                                    <div class="buttons">
-                                        <a class="white button" href="#"><span>VIEW FULL FEATURE LIST</span></a>
+                                    <div class="white buttons">
+                                        <p><a href="#"><span>VIEW FULL FEATURE LIST</span></a></p>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -125,8 +125,8 @@
                                         <h3>11 meeting rooms</h3>
                                         <p>with video conferencing &amp; leading wifi technology</p>
                                     </div>
-                                    <div class="buttons">
-                                        <a class="white button" href="#"><span>VIEW FULL FEATURE LIST</span></a>
+                                    <div class="white buttons">
+                                        <p><a href="#"><span>VIEW FULL FEATURE LIST</span></a></p>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -136,8 +136,8 @@
                                         <h3>11 meeting rooms</h3>
                                         <p>with video conferencing &amp; leading wifi technology</p>
                                     </div>
-                                    <div class="buttons">
-                                        <a class="white button" href="#"><span>VIEW FULL FEATURE LIST</span></a>
+                                    <div class="white buttons">
+                                        <p><a href="#"><span>VIEW FULL FEATURE LIST</span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -162,8 +162,8 @@
                         <p>The Ella House 5*hospitality team is on hand to help with everything.</p>
                     </div>
                     <div class="buttons">
-                        <a class="button" href="#"><span>Enquire</span></a>
-                        <a class="button" href="#"><span>HOSPITALITY DETAILS</span></a>
+                        <p><a href="#"><span>Enquire</span></a></p>
+                        <p><a href="#"><span>HOSPITALITY DETAILS</span></a></p>
                     </div>  
                 </div>
             </div>
@@ -224,8 +224,8 @@
                         <p>Getting to work in No. 40 Merrion Square was very different for Dr. Ella Webb, compared to the convenience of our modern-day commute.</p>
                     </div>
                     <div class="buttons">
-                        <a class="button" href="#"><span>Enquire</span></a>
-                        <a class="button" href="#"><span>The history</span></a>
+                        <p><a href="#"><span>Enquire</span></a></p>
+                        <p><a href="#"><span>The history</span></a></p>
                     </div>  
                 </div>
             </div>

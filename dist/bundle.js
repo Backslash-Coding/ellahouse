@@ -303,6 +303,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 			}
 		}
 
+		deskroll()
 		$(window).on('resize',deskroll)
 
 		// video ---------------------------------------------------------
