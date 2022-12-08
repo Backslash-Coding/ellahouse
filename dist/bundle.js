@@ -246,7 +246,21 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 		var swipers = []
 		var i = 0
 
-		$('.swiper:not(.wide)').each(function() {
+		$('.swiper.hero-swiper').each(function() {
+
+			var s = $(this).closest('section')
+
+			$(this).data('swiperNo',i)
+
+			swipers[i++] = new Swiper($(this)[0], {
+				loop: true,
+				speed: 1000,
+				autoplay: { delay: 5000 }
+			})
+
+		})
+
+		$('.swiper:not(.wide):not(.hero-swiper)').each(function() {
 
 			var s = $(this).closest('section')
 

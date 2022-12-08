@@ -546,10 +546,21 @@ img { max-width: 100%; height: auto; }
 
 .hero { display: flex; position: relative; height: 100vh; overflow: hidden; margin: 0 0 0 -80px; }
 .hero > img,
-.hero > video { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; object-fit: cover; width: 100%; height: 100%; display: block; }
+.hero > video,
+.hero > .swiper { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; width: 100%; height: 100%; display: block; object-fit: cover; }
+.hero > .swiper .swiper-slide { width: 100%; height: 100%; }
+.hero > .swiper .swiper-slide img { width: 100%; height: 100%; object-fit: cover; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; }
 .hero .inner { height: 100vh; display: flex; text-align: right; flex-direction: column; align-items: flex-end; justify-content: center; color: #fff; z-index: 10; padding-top: 10vh; max-width: 1208px; }
 .hero .inner h1 { font-size: 62px; line-height: 59px; margin: 0 0 10px; }
 .hero .inner p { font-size: 24px; line-height: 30px; }
+
+.page-hero { display: flex; position: relative; overflow: hidden; margin: 0 0 0 -80px; }
+.page-hero > img,
+.page-hero > video { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; object-fit: cover; width: 100%; height: 100%; display: block; }
+.page-hero .inner { padding: 250px 20px; display: flex; align-items: center; justify-content: space-between; color: #fff; z-index: 10; max-width: 1208px; }
+.page-hero .inner h1 { font-size: 62px; line-height: 59px; }
+.page-hero .inner .breadcrumbs a { font-size: 12px; line-height: 20px; text-transform: uppercase; color: #fff; }
+.page-hero .inner .breadcrumbs span { margin: 0 10px; }
 
 @media (max-width: 1024.5px) {
 
@@ -583,6 +594,9 @@ img { max-width: 100%; height: auto; }
 
 .image-text .inner .image a.play { position: relative; display: block; }
 .image-text .inner .image a.play::before { content: ''; display: block; width: 51px; height: 51px; background: transparent url('../img/ico/play.webp') no-repeat center center; position: absolute; top: 20px; left: 20px; z-index: 10; }
+
+.image-text.narrow .inner { grid-template-columns: 1.3333fr 2fr; }
+.image-text.narrow.reversed .inner { grid-template-columns: 2fr 1.3333fr; }
 
 .image-text.reversed .image { grid-column: 2; grid-row: 1; }
 .image-text.reversed .text { grid-column: 1; grid-row: 1; align-items: flex-end; text-align: right; }

@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-	<title>Xhtmlmagic.com :: <?php echo $TITLE; ?></title>
+	<title>Backslashcoding.com :: <?php echo $TITLE; ?></title>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
 	<style>

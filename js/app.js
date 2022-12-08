@@ -67,7 +67,21 @@
 		var swipers = []
 		var i = 0
 
-		$('.swiper:not(.wide)').each(function() {
+		$('.swiper.hero-swiper').each(function() {
+
+			var s = $(this).closest('section')
+
+			$(this).data('swiperNo',i)
+
+			swipers[i++] = new Swiper($(this)[0], {
+				loop: true,
+				speed: 1000,
+				autoplay: { delay: 5000 }
+			})
+
+		})
+
+		$('.swiper:not(.wide):not(.hero-swiper)').each(function() {
 
 			var s = $(this).closest('section')
 
