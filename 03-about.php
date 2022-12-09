@@ -1,4 +1,4 @@
-<?php include("_header.inc.php"); ?>
+<?php $title = 'About'; include("_header.inc.php"); ?>
 
     <!------------------------------>
 
@@ -16,7 +16,7 @@
 
     <!------------------------------>
 
-    <section id="section5">
+    <section>
         <div class="image-text reversed narrow">
             <div class="inner">
                 <div class="image" data-0="transform:translateY(50px);" data-top="transform:translateY(-50px);">
@@ -39,7 +39,7 @@
 
     <!------------------------------>
 
-    <section id="section1">
+    <section>
         <div class="image-text narrow">
             <div class="inner">
                 <div class="image" data-0="transform:translateY(50px);" data-top="transform:translateY(-50px);">

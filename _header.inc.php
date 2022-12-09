@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="dist/css.php">					
 								
 </head>
-<body>
+<body<?php if(!empty($bodyclass)) { ?> class="<?php echo $bodyclass; ?>"<?php } ?>>
 
 	<header class="header">
 

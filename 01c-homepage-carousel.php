@@ -1,4 +1,4 @@
-<?php include("_header.inc.php"); ?>
+<?php $bodyclass = 'home'; include("_header.inc.php"); ?>
 
     <!------------------------------>
 
