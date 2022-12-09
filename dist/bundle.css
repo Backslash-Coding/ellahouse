@@ -715,6 +715,54 @@ img { max-width: 100%; height: auto; }
 
 }
 
+.text-block { padding: 50px 0; }
+.text-block .inner { max-width: 800px; }
+.wide.text-block .inner { max-width: 1440px; }
+.wide.text-block .text { max-width: 800px; }
+
+.text-block h2 { margin: 0 0 30px; }
+.text-block h3 { margin: 0 0 20px; font-family: var(--font-text); }
+.text-block p { margin: 0 0 28px; }
+.text-block ul { margin: 0 0 28px 28px; }
+.text-block .buttons { margin: 0 0 28px; }
+.text-block blockquote { font-family: var(--font-headings); padding: 0 50px; }
+
+.text-block.two-cols .inner { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+
+.text-block img.fullwidth { width: 100%; display: block; height: auto; }
+
+.text-block .video iframe { width: 100% !important; aspect-ratio: 16 / 9 !important; height: auto !important; display: block; }
+
+.image-grid { margin: 0 0 100px; }
+.image-grid .inner { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1244px; }
+.image-grid .inner a { display: block; overflow: hidden; position: relative; }
+.image-grid .inner a span { display: flex; position: absolute; top: 0; left: 0; right: 0; bottom: 0; text-align: center; align-items: flex-end; justify-content: center; color: #fff; padding: 30px; text-transform: uppercase; }
+.image-grid .inner a img { display: block; transition: all .8s; } 
+.image-grid .inner a::after { content: ''; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5); transition: all .8s; opacity: 0; z-index: 10; }
+
+.carousel .swiper { width: 100%; }
+.carousel .swiper .swiper-slide { width: 100%; }
+.carousel .swiper .swiper-slide img { width: 100%; height: auto; display: block; }
+.carousel .swiper .arrow { width: 40px; height: 40px; position: absolute; background: rgba(0,0,0,.5); display: flex; justify-content: center; align-items: center; top: 50%; margin: -20px 0 0 0; z-index: 33; cursor: pointer; }
+.carousel .swiper .arrow svg path { fill: #fff; }
+.carousel .swiper .arrow.prev { left: 10px; transform: rotate(90deg); }
+.carousel .swiper .arrow.next { right: 10px; transform: rotate(-90deg); }
+
+@media (hover) {
+
+	.image-grid .inner a:hover img { transform: scale(1.05); }
+	.image-grid .inner a:hover::after { opacity: 1; }
+
+}
+
+@media (max-width: 767.5px) {
+
+	.image-grid .inner { grid-template-columns: 1fr; }
+
+	.text-block.two-cols .inner { display: grid; grid-template-columns: 1fr; gap: 30px; }
+
+}
+
 /* ------------- */
 
 aside { position: fixed; top: 0; left: 0; bottom: 0; width: 80px; background: black; z-index: 999; }
