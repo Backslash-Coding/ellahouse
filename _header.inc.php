@@ -28,8 +28,7 @@
 	<header class="header">
 
 		<a class="logo" href="#">
-			<img class="desktop" src="img/logo.svg">
-			<img class="mobile" src="img/logo-mobile.svg">
+			<img class="desktop" src="img/logo-new.svg">
 		</a>
 
 		<nav>

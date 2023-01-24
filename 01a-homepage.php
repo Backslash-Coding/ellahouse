@@ -92,7 +92,7 @@
 
     <section id="section4">
         <div class="text-slider-overlay">
-            <div class="image rellax" data-rellax-speed="-3">
+            <div class="image rellax" data-rellax-speed="-1.8">
                 <img src="img/tmp/s4.webp">
             </div>
             <div class="overlay">
@@ -111,34 +111,34 @@
                                     <div class="text-inner">
                                         <h3>Privately furnished offices</h3>
                                         <p>in a stunning parkside location</p>
-                                        <h3>11 meeting rooms</h3>
-                                        <p>with video conferencing &amp; leading wifi technology</p>
+                                        <!--<h3>11 meeting rooms</h3>
+                                        <p>with video conferencing &amp; leading wifi technology</p>-->
                                     </div>
-                                    <div class="white buttons">
+                                    <!--<div class="white buttons">
                                         <p><a href="#">VIEW FULL FEATURE LIST</a></p>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="text-inner">
                                         <h3>Privately furnished offices</h3>
                                         <p>in a stunning parkside location</p>
-                                        <h3>11 meeting rooms</h3>
-                                        <p>with video conferencing &amp; leading wifi technology</p>
+                                        <!--<h3>11 meeting rooms</h3>
+                                        <p>with video conferencing &amp; leading wifi technology</p>-->
                                     </div>
-                                    <div class="white buttons">
+                                    <!--<div class="white buttons">
                                         <p><a href="#">VIEW FULL FEATURE LIST</a></p>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="text-inner">
                                         <h3>Privately furnished offices</h3>
                                         <p>in a stunning parkside location</p>
-                                        <h3>11 meeting rooms</h3>
-                                        <p>with video conferencing &amp; leading wifi technology</p>
+                                        <!--<h3>11 meeting rooms</h3>
+                                        <p>with video conferencing &amp; leading wifi technology</p>-->
                                     </div>
-                                    <div class="white buttons">
+                                    <!--<div class="white buttons">
                                         <p><a href="#">VIEW FULL FEATURE LIST</a></p>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>

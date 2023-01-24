@@ -13,7 +13,7 @@
 	<footer class="footer">
 		<div class="inner">
 			<div class="image">
-				<a class="logo" href="#"><img src="img/logo-full.svg"></a>
+				<a class="logo" href="#"><img src="img/logo-new.svg"></a>
 			</div>
 			<div class="text">
 				<h6>Useful links</h6>
