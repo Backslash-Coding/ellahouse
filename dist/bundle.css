@@ -638,7 +638,7 @@ img { max-width: 100%; height: auto; }
 .text-slider-overlay .overlay .swiper-slide p { font-size: 18px; line-height: 24px; margin: 0 0 20px; }
 .text-slider-overlay .overlay .swiper-slide .buttons { margin: 40px 0 0 0; }
 
-.wide-swiper-wrapper { background: linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); padding: 0 18px 35px; position: relative; }
+.wide-swiper-wrapper { background: linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); padding: 0 18px 80px; position: relative; }
 .wide.swiper { width: 100%; overflow: visible; }
 .wide.swiper .swiper-slide { width: auto; max-width: 100%; }
 .wide.swiper .swiper-slide img { display: block; }
@@ -646,7 +646,7 @@ img { max-width: 100%; height: auto; }
 .wide.swiper .swiper-slide a::after { content: ''; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 20; transition: all .4s; opacity: 0; background: rgba(0,0,0,.21); }
 
 .wide-swiper-wrapper .swiper-horizontal > .swiper-scrollbar, 
-.wide-swiper-wrapper .swiper-scrollbar.swiper-scrollbar-horizontal { bottom: 12px; left: 18px; right: 18px; width: auto; height: 12px; cursor: pointer; border-radius: 0; background: transparent url("../img/bg/lines.webp") repeat-x center center; }
+.wide-swiper-wrapper .swiper-scrollbar.swiper-scrollbar-horizontal { bottom: 57px; left: 18px; right: 18px; width: auto; height: 12px; cursor: pointer; border-radius: 0; background: transparent url("../img/bg/lines.webp") repeat-x center center; }
 .wide-swiper-wrapper .swiper-scrollbar-drag { background: #462c22; border-radius: 0; }
 
 .wide-swiper-wrapper .filter { position: absolute; right: 0; bottom: 35px; height: 50px; background: #462c22; padding: 10px 20px; display: flex; align-items: center; color: #fff; z-index: 33; font-size: 12px; font-weight: 400; }
