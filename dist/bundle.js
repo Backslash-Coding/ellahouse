@@ -264,7 +264,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 
 		})
 
-		$('.swiper:not(.wide):not(.hero-swiper)').each(function() {
+		$('.swiper:not(.wide):not(.hero-swiper):not(.with-tabs').each(function() {
 
 			var s = $(this).closest('section')
 
@@ -275,6 +275,25 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 				speed: 1000,
 				autoplay: { delay: 5000 },
 				navigation: { nextEl: s.find('.next')[0], prevEl: s.find('.prev')[0]  }
+			})
+
+		})
+
+		$('.swiper.with-tabs').each(function() {
+
+			var s = $(this).closest('section')
+
+			$(this).data('swiperNo',i)
+
+			swipers[i++] = new Swiper($(this)[0], {
+				loop: true,
+				speed: 1000,
+				//autoplay: { delay: 5000 },
+				navigation: { nextEl: s.find('.next')[0], prevEl: s.find('.prev')[0]  },
+				pagination: { el: s.find('.dots')[0], clickable: true, renderBullet: function (index, className) {
+          			return '<span class="' + className + '">' + (tabsForCarousel[index]) + '</span>';
+        			} 
+				}
 			})
 
 		})
