@@ -405,24 +405,25 @@ aside .social a svg path { fill: #fff; }
 /* ------------- */
 
 .footer { position: fixed; bottom: 0; left: 0; right: 0; background: var(--color-dark); z-index: 99; color: #fff; padding: 0 0 0 80px; overflow: hidden; }
-.footer .inner { display: grid; max-width: 1440px; grid-template-columns: 1fr 1fr; }
-.footer .logo { width: 240px; display: flex; }
-.footer .image { display: flex; align-items: center; }
-.footer .text { padding: 90px 0; }
-.footer h6 { position: relative; font-family: var(--font-text); font-weight: 500; text-transform: uppercase; font-size: 14px; line-height: 22px; margin: 0 0 16px; }
-.footer h6::before { content: ''; display: block; width: 30px; height: 1px; position: absolute; top: 50%; right: 100%; margin: 0 20px 0 0; background: #fff; }
-.footer ul { position: relative; font-family: var(--font-text); font-weight: 500; text-transform: uppercase; font-size: 14px; line-height: 22px; display: flex; flex-wrap: wrap; list-style: none; margin: 0 0 24px; }
-.footer ul li:last-child::after { display: none; }
-.footer ul li::after { content: "|"; margin: 0 7px; }
+.footer .inner { display: grid; max-width: 1440px; grid-template-columns: 1.1fr 1fr; }
+.footer .logo { width: 380px; display: flex; }
+.footer .image { display: flex; align-items: flex-start; padding: 64px 0 0 0; }
+.footer .text { padding: 64px 0 0 0; display: grid; grid-template-columns: 1.65fr 1fr; }
+.footer h6 { position: relative; font-family: var(--font-text); font-weight: 500; text-transform: uppercase; font-size: 16px; line-height: 22px; margin: 0 0 10px; }
+.footer ul { position: relative; font-family: var(--font-text); font-weight: 500; font-size: 14px; line-height: 24px; display: flex; flex-direction: column; list-style: none; margin: 0 0 24px; }
 .footer ul li a { color: #fff; }
-.footer p { position: relative; font-family: var(--font-text); font-weight: 500; text-transform: uppercase; font-size: 14px; line-height: 22px; margin: 0 0 30px; }
-.footer p::before { content: ''; display: block; width: 30px; height: 1px; position: absolute; top: 50%; right: 100%; margin: 0 20px 0 0; background: #fff; }
+.footer p { position: relative; font-family: var(--font-text); font-weight: 500; font-size: 14px; line-height: 24px; margin: 0 0 24px; }
 .footer p span { margin: 0 7px; }
 .footer p a { color: #fff; }
-.footer .totop { width: 100%; display: flex; justify-content: flex-end; position: relative; padding: 0 50px 0 0; }
+.footer .line { border-top: 1px solid #fff; padding: 24px 0; margin: 0 150px 0 0; }
+.footer .line p { margin: 0; }
+.footer .line.with-social { display: flex; width: 100%; margin: 0; }
+.footer .social { margin: 0 0 0 auto; display: flex; gap: 10px; }
+.footer .social svg { display: block; width: 20px; }
+/*.footer .totop { width: 100%; display: flex; justify-content: flex-end; position: relative; padding: 0 50px 0 0; }
 .footer .totop::before { content: ''; display: block; background: #fff; position: absolute; left: -50px; right: 0; top: 0; height: 1px; }
 .footer .totop a { display: flex; text-transform: uppercase; font-size: 14px; line-height: 22px; color: #fff; font-weight: 500; position: relative; padding: 10px 0 0 0; }
-.footer .totop a::before { content: ''; display: block; background: #fff; width: 7px; height: 7px; border-radius: 7px; transition: all .4s; position: absolute; top: -3px; left: 50%; margin: 0 0 0 -3.5px; }
+.footer .totop a::before { content: ''; display: block; background: #fff; width: 7px; height: 7px; border-radius: 7px; transition: all .4s; position: absolute; top: -3px; left: 50%; margin: 0 0 0 -3.5px; }*/
 
 @media (hover) {
 
@@ -431,25 +432,29 @@ aside .social a svg path { fill: #fff; }
 
 }
 
-@media (max-width: 1024.5px) {
+@media (max-width: 1299.5px) {
+
+	.footer .inner { column-gap: 50px; grid-template-columns: 1fr 1fr; }
+	.footer .line { margin: 0; width: 100%; }
+
+}
+
+@media (max-width: 1023.5px) {
 
 	.footer { padding: 0; }
+	.footer .logo { max-width: 300px; width: 100%; }
 
 }
 
 @media (max-width: 767.5px) {
 
 	.footer .inner { grid-template-columns: 1fr; }
-	.footer .image { justify-content: center; padding: 50px 0 0 0; }
-
-	.footer h6 { text-align: center; }
-	.footer ul { justify-content: center; }
-	.footer p { text-align: center; }
-
-	.footer h6::before { left: 50%; right: auto; top: -10px; margin: 0 0 0 -15px; }
-	.footer p::before { left: 50%; right: auto; top: -10px; margin: 0 0 0 -15px; }
-
-	.footer .totop::before { left: 0; }
+	.footer .image { justify-content: center; }
+	.footer .text { grid-template-columns: 1fr; justify-content: center; }
+	.footer .text .col { text-align: center; }
+	.footer .line { text-align: center; }
+	.footer .line.with-social { flex-direction: column; }
+	.footer .line .social { margin: 24px auto 0; }
 
 }
 
