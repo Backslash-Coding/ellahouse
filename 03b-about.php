@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="txt">
+                        <div class="txt tab-bg-2">
                             <div class="txt-inner">
                                 <h2>Your private garden</h2>
                                 <p>Escape to one of our beautifully planted gardens, nestled to the rear of Ella House. Take a break from your day in a calm, green oasis, and allow nature to recharge your mental and physical wellbeing.</p>
