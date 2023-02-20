@@ -28,7 +28,7 @@
 	<header class="header">
 
 		<a class="logo" href="#">
-			<img class="desktop" src="img/logo-new.svg">
+			<img class="desktop" src="img/logo-new-2.svg">
 		</a>
 
 		<nav>
