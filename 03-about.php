@@ -1,4 +1,4 @@
-<?php $title = 'About'; include("_header.inc.php"); ?>
+<?php $title = 'About'; include("_header2.inc.php"); ?>
 
     <!------------------------------>
 
@@ -175,7 +175,7 @@
     <section>
         <div class="carousel">
             <div class="inner">
-                <div class="swiper">
+                <div class="swiper" data-speed="1000" data-delay="3000">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="img/tmp/hero.webp"></div>
                         <div class="swiper-slide"><img src="img/tmp/hero.webp"></div>

@@ -25,21 +25,6 @@
 </head>
 <body<?php if(!empty($bodyclass)) { ?> class="<?php echo $bodyclass; ?>"<?php } ?>>
 
-	<script>
-
-		var homeBlocks = {
-			"top": "HOME",
-			"section1": "At a Glance",
-			"section2": "How it works",
-			"section3": "KEY FEATURes",
-			"section4": "AT YOUR SERVICE",
-			"section5": "Gallery",
-			"section6": "Sustainability",
-			"section7": "ENQUIRE"
-		}
-
-	</script>
-
 	<header class="header">
 
 		<a class="logo" href="#">
@@ -48,14 +33,14 @@
 
 		<nav>
 			<ul>
-				<li><a href="#top">HOME</a></li>	         
-				<li><a href="#section1">At a Glance</a></li>
-				<li><a href="#section2">How it works</a></li> 
-				<li><a href="#section3">KEY FEATURes</a></li>
-				<li><a href="#section4">AT YOUR SERVICE</a></li>   
-				<li><a href="03-about.php">About</a></li>
-				<li><a href="#section6">Sustainability</a></li>
-				<li><a href="#section7">ENQUIRE</a></li>
+				<li><a href="01a-homepage.php#top">HOME</a></li>	         
+				<li><a href="01a-homepage.php#section1">At a Glance</a></li>
+				<li><a href="01a-homepage.php#section2">How it works</a></li> 
+				<li><a href="01a-homepage.php#section3">KEY FEATURes</a></li>
+				<li><a href="01a-homepage.php#section4">AT YOUR SERVICE</a></li>   
+				<li><a href="02-contact.php">Contact</a></li>
+				<li><a href="01a-homepage.php#section6">Sustainability</a></li>
+				<li><a href="01a-homepage.php#section7">ENQUIRE</a></li>
 			</ul>
 		</nav>
 

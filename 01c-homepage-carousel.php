@@ -4,7 +4,7 @@
 
     <section id="top">
         <div class="hero">
-            <div class="swiper hero-swiper">
+            <div class="swiper hero-swiper" data-speed="1000" data-delay="3000">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="img/tmp/hero.webp" class="rellax" data-rellax-speed="-4">
@@ -38,7 +38,7 @@
         <div class="image-text">
             <div class="inner">
                 <div class="image" data-0="transform:translateY(50px);" data-top="transform:translateY(-50px);">
-                    <div class="swiper">
+                    <div class="swiper" data-speed="1000" data-delay="3000">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="img/tmp/s1.webp">
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                     <div class="slider">
-                        <div class="swiper">
+                        <div class="swiper" data-speed="1000" data-delay="3000">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="text-inner">
@@ -194,7 +194,7 @@
 
     <section id="section6">
         <div class="wide-swiper-wrapper">
-            <div class="wide swiper">
+            <div class="wide swiper" data-speed="1000" data-delay="3000">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#"><img src="img/tmp/s6.webp"></a>

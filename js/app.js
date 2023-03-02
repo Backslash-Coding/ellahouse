@@ -3,7 +3,7 @@
 
 		// nav scroll --------------------------------------------------
 
-		$('.home .header nav a:not(.external)').on('click',function(e) {
+		$('.home .header nav a[href^="#"]').on('click',function(e) {
 			e.preventDefault()
 			var target = $($(this).attr('href'))
 			if(undefined !== target) {
@@ -13,6 +13,19 @@
 				})
 			}
 		})
+
+		if($('body').is('.home') && window.location.hash) {
+
+			var h = window.location.hash
+			var target = $(h)
+			if(undefined !== target) {
+				target = target.offset().top - 80
+				$('html,body').animate({'scrollTop':target},1000,function() {
+					$('aside .current').shuffleLetters()
+				})
+			}
+
+		}
 
 		// mobile menu -------------------------------------------------
 
@@ -42,11 +55,17 @@
 				sections.each(function() {
 					var secTop = $(this).offset().top
 					if(secTop <= st + 81) {
-						var title = $('.header nav a[href="#' + $(this).attr('id') + '"]')
-						$('aside .current').html(title.html())
+						
+						/*var title = $('.header nav a[href="#' + $(this).attr('id') + '"]')
+						$('aside .current').html(title.html())*/
+
+						var title = homeBlocks[$(this).attr('id')]
+						$('aside .current').html(title)
+
 						$('.header nav a').removeClass('active')
-						title.addClass('active')
+						$('.header nav a[href="#' + $(this).attr('id') + '"]').addClass('active')
 						return false;
+
 					}
 				})
 			}
@@ -74,13 +93,14 @@
 		$('.swiper.hero-swiper').each(function() {
 
 			var s = $(this).closest('section')
+			var sw = $(this)
 
 			$(this).data('swiperNo',i)
 
 			swipers[i++] = new Swiper($(this)[0], {
 				loop: true,
-				speed: 1000,
-				autoplay: { delay: 5000 }
+				speed: sw.data('speed'),
+				autoplay: { delay: sw.data('delay') }
 			})
 
 		})
@@ -88,13 +108,14 @@
 		$('.swiper:not(.wide):not(.hero-swiper):not(.with-tabs').each(function() {
 
 			var s = $(this).closest('section')
+			var sw = $(this)
 
 			$(this).data('swiperNo',i)
 
 			swipers[i++] = new Swiper($(this)[0], {
 				loop: true,
-				speed: 1000,
-				autoplay: { delay: 5000 },
+				speed: sw.data('speed'),
+				autoplay: { delay: sw.data('delay') },
 				navigation: { nextEl: s.find('.next')[0], prevEl: s.find('.prev')[0]  }
 			})
 
@@ -102,26 +123,32 @@
 
 		$('.swiper.with-tabs').each(function() {
 
-			var s = $(this).closest('section')
+			if($(this).closest('section').find('.tab-carousel-nav').length) {
 
-			$(this).data('swiperNo',i)
+				var s = $(this).closest('section')
+				var sw = $(this)
 
-			swipers[i++] = new Swiper($(this)[0], {
-				loop: true,
-				speed: 1000,
-				//autoplay: { delay: 5000 },
-				navigation: { nextEl: s.find('.next')[0], prevEl: s.find('.prev')[0]  },
-				pagination: { el: s.find('.dots')[0], clickable: true, renderBullet: function (index, className) {
-          			return '<span class="' + className + '">' + (tabsForCarousel[index]) + '</span>';
-        			} 
-				}
-			})
+				$(this).data('swiperNo',i)
+
+				swipers[i++] = new Swiper($(this)[0], {
+					loop: true,
+					speed: sw.data('speed'),
+					//autoplay: { delay: sw.data('delay') },
+					navigation: { nextEl: s.find('.next')[0], prevEl: s.find('.prev')[0]  },
+					pagination: { el: s.find('.dots')[0], clickable: true, renderBullet: function (index, className) {
+						return '<span class="' + className + '">' + (tabsForCarousel[index]) + '</span>';
+						} 
+					}
+				})
+
+			}
 
 		})
 
 		$('.swiper.wide').each(function() {
 
 			var s = $(this).closest('section')
+			var sw = $(this)
 
 			$(this).data('swiperNo',i)
 
@@ -131,8 +158,8 @@
 				slidesPerView: 'auto',
 				scrollbar: { el: s.find('.swiper-scrollbar')[0], draggable: true  },
 				freeMode: true,
-				speed: 1000,
-				autoplay: { delay: 5000 }
+				speed: sw.data('speed'),
+				autoplay: { delay: sw.data('delay') }
 			})
 
 			/*var sl = s.find('.swiper-slide').length

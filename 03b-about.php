@@ -1,4 +1,4 @@
-<?php $title = 'About'; include("_header.inc.php"); ?>
+<?php $title = 'About'; include("_header2.inc.php"); ?>
 
     <!------------------------------>
 
@@ -32,7 +32,7 @@
 
     <section>
         <div class="tab-carousel">
-            <div class="swiper with-tabs">
+            <div class="swiper with-tabs" data-speed="1000" data-delay="3000">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="txt">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="img">
                             <img src="img/tmp/slider.jpg">
-                            <p>“Some amenities you’ll enjoy, along with flexible contracts and one monthly bill.”</p>
+                            <p>“Some amenities you'll enjoy, along with flexible contracts and one monthly bill.”</p>
                         </div>
                     </div>
                     <div class="swiper-slide reversed">
@@ -80,14 +80,16 @@
                         </div>
                         <div class="img">
                             <img src="img/tmp/slider.jpg">
-                            <p>You’ll feel free from the hustle and bustle of urban life, even though you are in the heart of it.</p>
+                            <p>You'll feel free from the hustle and bustle of urban life, even though you are in the heart of it.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script> var tabsForCarousel = ['Key Features', 'Meeting rooms', 'Private garden'] </script>
+        <script> 
+            var tabsForCarousel = ['Key Features', 'Meeting rooms', 'Private garden'] 
+        </script>
 
         <div class="tab-carousel-nav">
             <div class="tabs-for-tab-carousel dots"></div>
@@ -110,6 +112,33 @@
             </div>
         </div>
     </section>
+
+    <!------------------------------>
+
+    <section>
+        <div class="tab-carousel">
+            <div class="swiper with-tabs" data-speed="1000" data-delay="3000">
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide reversed">
+                        <div class="txt">
+                            <div class="txt-inner">
+                                <h2>Meetings made easy</h2>
+                                <p>Ella House meeting roomsare equipped with the latest audio-visual technology and designed to enhance productivity and encourage innovation. Avail of premium catering servicesand onsite tech support to ensure your meeting experience is effective, enjoyable, and seamless.</p>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="img/tmp/slider.jpg">
+                            <p>Choose from 11 bespoke meeting spaces accommodating 4 - 20 people, bookable 24/7 with our user friendly app.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------>
 
 
 <?php include("_footer.inc.php"); 
