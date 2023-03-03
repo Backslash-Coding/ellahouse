@@ -3,9 +3,12 @@
 
 		// nav scroll --------------------------------------------------
 
-		$('.home .header nav a[href^="#"]').on('click',function(e) {
+		$('.home .header nav a[href*="#"]').on('click',function(e) {
 			e.preventDefault()
-			var target = $($(this).attr('href'))
+			var hr = $(this).attr('href').split('#')
+			hr = '#' + hr[hr.length - 1]
+			//console.log(hr)
+			var target = $(hr)
 			if(undefined !== target) {
 				target = target.offset().top - 80
 				$('html,body').animate({'scrollTop':target},1000,function() {
