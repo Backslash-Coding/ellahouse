@@ -186,7 +186,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 			e.preventDefault()
 			var hr = $(this).attr('href').split('#')
 			hr = '#' + hr[hr.length - 1]
-			console.log(hr)
+			//console.log(hr)
 			var target = $(hr)
 			if(undefined !== target) {
 				target = target.offset().top - 80

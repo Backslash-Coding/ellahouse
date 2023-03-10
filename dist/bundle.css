@@ -860,18 +860,19 @@ aside .social a svg path { fill: #fff; }
 
 }
 
-.tab-carousel .swiper-slide { display: flex; }
+.tab-carousel .swiper-slide { display: flex; height: auto; }
 .tab-carousel .swiper-slide.reversed { flex-direction: row-reverse; }
 .tab-carousel .swiper-slide .img { width: 50%; height: auto; aspect-ratio: 793 / 618; overflow: hidden; position: relative; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
 .tab-carousel .swiper-slide .img img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
 .tab-carousel .swiper-slide .img p { color: #fff; font-size: 30px; text-align: center; z-index: 20; line-height: 1; padding: 120px; max-width: 1024px; }
 .tab-carousel .swiper-slide .txt { width: 50%; display: flex; flex-direction: column; flex-shrink: 0; background: linear-gradient(135deg, rgba(101,73,45,1) 0%, rgba(141,103,64,1) 100%); justify-content: center; align-items: flex-start; }
-.tab-carousel .swiper-slide .txt .txt-inner { max-width: 1024px; display: flex; flex-direction: column; padding: 0 45px 0 96px; justify-content: center; align-items: flex-start; margin: 0 auto 0 0; width: 100%; }
+.tab-carousel .swiper-slide .txt .txt-inner { max-width: 1024px; display: flex; flex-direction: column; padding: 40px 45px 40px 96px; justify-content: center; align-items: flex-start; margin: 0 auto 0 0; width: 100%; }
 .tab-carousel .swiper-slide .txt h2 { color: #fff; font-size: 48px; line-height: 52px; max-width: 350px; margin: 0 0 65px; position: relative; }
 .tab-carousel .swiper-slide .txt h2::before { content: ''; display: block; width: 114px; height: 6px; background: #fff; position: absolute; bottom: -35px; left: 0; }
 .tab-carousel .swiper-slide .txt ul { list-style: none; column-count: 2; gap: 30px; padding: 0; width: 100%; }
-.tab-carousel .swiper-slide .txt li { font-size: 20px; line-height: 32px; color: rgba(255,255,255,.5); }
-.tab-carousel .swiper-slide .txt p { font-size: 20px; line-height: 32px; color: rgba(255,255,255,.5); max-width: 565px; }
+.tab-carousel .swiper-slide .txt li { font-size: 20px; line-height: 32px; color: #fff; position: relative; padding: 0 0 0 28px; break-inside: avoid; }
+.tab-carousel .swiper-slide .txt li::before { content: ''; display: block; position: absolute; top: 15px; left: 0; height: 4px; width: 16px; background: #fff; }
+.tab-carousel .swiper-slide .txt p { font-size: 20px; line-height: 32px; color: #fff; max-width: 565px; }
 
 .tab-carousel .swiper-slide.reversed .txt .txt-inner { padding: 0 45px 0 112px; }
 .tab-carousel .swiper-slide.reversed .txt p { max-width: 520px; }
@@ -890,18 +891,29 @@ aside .social a svg path { fill: #fff; }
 
 @media (min-width: 1800px) {
 
-	.tab-carousel .swiper-slide .txt .txt-inner { margin: 0 auto; padding: 0 45px !important; }
+	.tab-carousel .swiper-slide .txt .txt-inner { margin: 0 auto; padding: 45px !important; }
+
+}
+
+@media (max-width: 1719px) {
+
+	.tab-carousel .swiper-slide.with-lot-of-text .txt .txt-inner { padding: 40px; }
+	.tab-carousel .swiper-slide.with-lot-of-text .txt h2 { font-size: 38px; line-height: 42px; }
+	.tab-carousel .swiper-slide.with-lot-of-text .txt li { font-size: 18px; line-height: 28px; }
+	.tab-carousel .swiper-slide.with-lot-of-text .txt li::before { top: 13px; }
 
 }
 
 @media (max-width: 1299px) {
 
-	.tab-carousel .swiper-slide .txt .txt-inner { padding: 0 30px !important; }
+	.tab-carousel .swiper-slide .txt .txt-inner { padding: 40px !important; }
 	.tab-carousel .swiper-slide .txt h2 { font-size: 36px; line-height: 40px; margin: 0 0 40px; }
 	.tab-carousel .swiper-slide .txt h2::before { bottom: -25px; }
 	.tab-carousel .swiper-slide .txt li,
 	.tab-carousel .swiper-slide .txt p { font-size: 18px; line-height: 28px; }
 	.tab-carousel .swiper-slide .img p { padding: 60px; }
+
+	.tab-carousel .swiper-slide.with-lot-of-text .txt ul { column-count: 1; }
 
 }
 
@@ -915,11 +927,14 @@ aside .social a svg path { fill: #fff; }
 	.tab-carousel-nav svg path { fill: #fff; }
 	.tab-carousel-nav .dots { display: none !important; }
 
+	.tab-carousel .swiper-slide.with-lot-of-text .txt ul { column-count: 2; }
+
 }
 
 @media (max-width: 767.5px) {
 
 	.tab-carousel .swiper-slide .img p { font-size: 25px; }
 	.tab-carousel .swiper-slide .txt ul { column-count: 1; }
+	.tab-carousel .swiper-slide.with-lot-of-text .txt ul { column-count: 1; }
 
 }

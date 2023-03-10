@@ -34,23 +34,22 @@
         <div class="tab-carousel">
             <div class="swiper with-tabs" data-speed="1000" data-delay="3000">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide with-lot-of-text">
                         <div class="txt">
                             <div class="txt-inner">
                                 <h2>Key Features include</h2>
                                 <ul>
-                                    <li>Private furnished offices</li>
-                                    <li>Private data hubs</li>
-                                    <li>On-site hospitality team</li>
-                                    <li>3 Private landscaped gardens</li>
-                                    <li>11 Meeting rooms</li>
-                                    <li>Break out spaces</li>
-                                    <li>Stunning Parkside Location</li>
-                                    <li>Phone booths</li>
-                                    <li>Showers &amp; Lockers</li>
-                                    <li>On-site electric bikes</li>
-                                    <li>App controlled heating</li>
-                                    <li>Dog friendly options</li>
+                                    <li>Superfast, fibre-optic broadband, custom data networks and Wi-Fi infrastructure</li>
+                                    <li>10 beautifully designed tech-enabled meeting rooms with latest AV/video conferencing technology</li>
+                                    <li>Onsite management suite with expert hospitality team</li>
+                                    <li>Three beautifully planted gardens and courtyard spaces to enjoy</li>
+                                    <li>Our garden fitness zone for yoga classes and circuit training</li>
+                                    <li>Breakout spaces</li>
+                                    <li>Kitchens stocked with complimentary tea, coffee, fruit and snacks</li>
+                                    <li>Deluxe showers, lockers and safe bicycle storage</li>
+                                    <li>Onsite electric bikes by Bleeper Bikes</li>
+                                    <li>App-controlled heating system</li>
+                                    <li>Reception hallways with bespoke paneling and feature lighting to create lasting first impressions</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,8 +122,16 @@
                     <div class="swiper-slide reversed">
                         <div class="txt">
                             <div class="txt-inner">
-                                <h2>Meetings made easy</h2>
-                                <p>Ella House meeting roomsare equipped with the latest audio-visual technology and designed to enhance productivity and encourage innovation. Avail of premium catering servicesand onsite tech support to ensure your meeting experience is effective, enjoyable, and seamless.</p>
+                                <h2>Member services</h2>
+                                <ul>
+                                    <li>Concierge services</li>
+                                    <li>On-demand tech support</li>
+                                    <li>Event planning service</li>
+                                    <li>Catering service</li>
+                                    <li>Specialty coffee &amp; refreshments</li>
+                                    <li>Networking &amp; Social events</li>
+                                    <li>Break out area</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="img">
