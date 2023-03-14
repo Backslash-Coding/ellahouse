@@ -262,9 +262,11 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 		function fixedFooter() {
 			var fh = $('.footer').height()
 			$('body').css('padding-bottom',fh)
+			console.log('fixed footer')
 		}
 
 		fixedFooter()
+		setTimeout(fixedFooter,1000)
 		$(window).on('resize',fixedFooter)
 
 		// swipers -----------------------------------------------------
