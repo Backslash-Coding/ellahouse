@@ -596,6 +596,9 @@ img { max-width: 100%; height: auto; }
 .image-text .inner .text .text-inner { max-width: 475px; }
 .image-text .inner .text h2 { font-size: 30px; line-height: 36px; margin: 0 0 20px; }
 .image-text .inner .text p { font-size: 18px; line-height: 28px; color: var(--color-grey); margin: 0 0 28px; }
+.image-text .inner .text ul { margin: 0 0 28px 28px; list-style: none; }
+.image-text .inner .text ul li { position: relative; color: var(--color-grey); }
+.image-text .inner .text ul li::before { content: ''; display: block; width: 11px; height: 2px; background: var(--color-dark); position: absolute; top: 12px; left: -22px; }
 .image-text .inner .text .buttons { margin: 32px 0 0 0; }
 
 .image-text .inner .image a.play { position: relative; display: block; }
@@ -723,9 +726,9 @@ img { max-width: 100%; height: auto; }
 
 .text-block h2 { margin: 0 0 30px; }
 .text-block h3 { margin: 0 0 20px; font-family: var(--font-text); }
-.text-block p { margin: 0 0 28px; }
+.text-block p { margin: 0 0 28px; color: var(--color-grey); }
 .text-block ul { margin: 0 0 28px 28px; list-style: none; }
-.text-block ul li { position: relative; }
+.text-block ul li { position: relative; color: var(--color-grey); }
 .text-block ul li::before { content: ''; display: block; width: 11px; height: 2px; background: var(--color-dark); position: absolute; top: 12px; left: -22px; }
 .text-block .buttons { margin: 0 0 28px; }
 .text-block blockquote { font-family: var(--font-headings); padding: 0 50px; }
