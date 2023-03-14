@@ -554,3 +554,8 @@ aside .social a svg path { fill: #fff; }
 	.tab-carousel .swiper-slide.with-lot-of-text .txt ul { column-count: 1; }
 
 }
+
+/**/
+
+.cookie { border: 1px solid #ccc; padding: 30px; margin: 0 0 30px; }
+.cookie p { font-size: .9em; color: #666; margin: 0; }
