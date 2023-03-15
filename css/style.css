@@ -334,6 +334,9 @@ img { max-width: 100%; height: auto; }
 }
 
 .text-block { padding: 50px 0; }
+.text-block.with-prev { padding-top: 0; margin-top: -25px; }
+.text-block.with-next { padding-bottom: 0; }
+
 .text-block .inner { max-width: 800px; }
 .wide.text-block .inner { max-width: 1440px; }
 .wide.text-block .text { max-width: 800px; }
