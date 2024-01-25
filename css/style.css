@@ -510,6 +510,8 @@ aside .social a svg path { fill: #fff; }
 .tab-carousel .swiper-slide .txt li::before { content: ''; display: block; position: absolute; top: 15px; left: 0; height: 2px; width: 11px; background: #fff; }
 .tab-carousel .swiper-slide .txt p { font-size: 20px; line-height: 32px; color: #fff; max-width: 565px; }
 
+.tab-carousel .swiper-slide .img::before { content: ''; display: block; position: absolute; inset: 0 0 0 0; z-index: 10; background: rgba(0,0,0,.25); }
+
 .tab-carousel .swiper-slide.reversed .txt .txt-inner { padding: 0 45px 0 112px; }
 .tab-carousel .swiper-slide.reversed .txt p { max-width: 520px; }
 
