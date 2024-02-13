@@ -955,7 +955,10 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 
 		// parallax ------------------------------------------------------
 
-		var rellax = new Rellax('.rellax')
+		if($('.rellax').length) {
+			var rellax = new Rellax('.rellax')
+		}
+
 		var skroll = skrollr.init()
 
 		function deskroll() {

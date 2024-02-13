@@ -181,7 +181,10 @@
 
 		// parallax ------------------------------------------------------
 
-		var rellax = new Rellax('.rellax')
+		if($('.rellax').length) {
+			var rellax = new Rellax('.rellax')
+		}
+
 		var skroll = skrollr.init()
 
 		function deskroll() {
