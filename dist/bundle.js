@@ -856,7 +856,11 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 
 		function fixedFooter() {
 			var fh = $('.footer').height()
-			$('body').css('padding-bottom',fh)
+			var bh = $('body').outerHeight()
+			$('body').css({ 
+				'padding-bottom': fh + 'px', 
+				'height': bh + 'px' 
+			})
 			console.log('fixed footer')
 		}
 

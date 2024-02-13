@@ -82,7 +82,11 @@
 
 		function fixedFooter() {
 			var fh = $('.footer').height()
-			$('body').css('padding-bottom',fh)
+			var bh = $('body').outerHeight()
+			$('body').css({ 
+				'padding-bottom': fh + 'px', 
+				'height': bh + 'px' 
+			})
 			console.log('fixed footer')
 		}
 
