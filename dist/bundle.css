@@ -405,7 +405,7 @@ template {
 	
 /* ------------- */
 	
-body { font-family: var(--font-text); font-size: 18px; line-height: 1.33; background: #fff; color: #000; padding: 0 0 0 80px; }
+body { font-family: var(--font-text); font-size: 18px; line-height: 1.33; background: #fff; color: #000; padding: 0 0 0 80px; height: auto !important; }
 
 .wrapper { overflow: hidden; display: flex; flex-direction: column; min-height: 100vh; position: relative; background: #fff; z-index: 100; }
 	
