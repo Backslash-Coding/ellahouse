@@ -475,12 +475,24 @@ aside .social a svg path { fill: #fff; }
 
 }
 
+@media (max-width: 767.5px) {
+
+	.footer { position: static !important; }
+	body { padding: 0 !important; }
+
+}
+
+@media (max-height: 767.5px) {
+
+	.footer { position: static !important; }
+	body { padding: 0 !important; }
+
+}
+
 @media (max-width: 414.5px) {
 
 	.footer ul.terms-and-policies { flex-direction: column; align-items: center; }
 	.footer ul.terms-and-policies li::before { display: none; }
-
-	.footer .text .col:first-child { display: none; }
 
 }
 
