@@ -866,6 +866,8 @@ aside .social a svg path { fill: #fff; }
 	.footer ul.terms-and-policies { flex-direction: column; align-items: center; }
 	.footer ul.terms-and-policies li::before { display: none; }
 
+	.footer .text .col:first-child { display: none; }
+
 }
 
 .video-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 9999; background: rgba(0,0,0,.9); display: flex; justify-content: center; align-items: center; padding: 10vh 10vw; opacity: 0; pointer-events: none; transition: all .4s; }
