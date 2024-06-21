@@ -3,7 +3,7 @@
 
 		// nav scroll --------------------------------------------------
 
-		$('.home .header nav a[href*="#"]').on('click',function(e) {
+		/*$('.home .header nav a[href*="#"]').on('click',function(e) {
 			e.preventDefault()
 			var hr = $(this).attr('href').split('#')
 			hr = '#' + hr[hr.length - 1]
@@ -28,7 +28,7 @@
 				})
 			}
 
-		}
+		}*/
 
 		// mobile menu -------------------------------------------------
 

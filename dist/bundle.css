@@ -404,6 +404,10 @@ template {
 }
 	
 /* ------------- */
+
+/* css for smooth scrolling */
+html { scroll-behavior: smooth; }
+div[id], section[id] { scroll-margin-top: 80px; }
 	
 body { font-family: var(--font-text); font-size: 18px; line-height: 1.33; background: #fff; color: #000; padding: 0 0 0 80px; height: auto !important; }
 
@@ -483,7 +487,7 @@ img { max-width: 100%; height: auto; }
 	.header nav ul { display: flex; list-style: none; gap: 20px; }
 	.header nav ul li { margin: 0; }
 	.header nav ul li.right { margin: 0 0 0 auto; }
-	.header nav ul li.right a { font-weight: bold; }
+	/*.header nav ul li.right a { font-weight: bold; }*/
 	.header nav ul li a { display: flex; color: #fff; text-transform: capitalize; font-weight: 500; font-size: 13px; line-height: 20px; position: relative; }
 	.header nav ul li a::before { content: ''; display: block; width: 0; height: 1px; position: absolute; bottom: -4px; left: 0; background: #fff; opacity: .41; transition: all .4s; }
 	.header nav ul li a.active::before { width: 25px; }

@@ -777,7 +777,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 
 		// nav scroll --------------------------------------------------
 
-		$('.home .header nav a[href*="#"]').on('click',function(e) {
+		/*$('.home .header nav a[href*="#"]').on('click',function(e) {
 			e.preventDefault()
 			var hr = $(this).attr('href').split('#')
 			hr = '#' + hr[hr.length - 1]
@@ -802,7 +802,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 				})
 			}
 
-		}
+		}*/
 
 		// mobile menu -------------------------------------------------
 
