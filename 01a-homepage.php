@@ -45,6 +45,10 @@
                     <div class="text-inner">
                         <h2>When people love where they work, productivity thrives.</h2>
                         <p>Progressive businesses want a workplace that supports the lifestyle and wellbeing of their team.</p>  
+                        <ul>
+                            <li>It's a house</li>
+                            <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        </ul>
                     </div>
                     <div class="buttons">
                         <p><a href="#">ENQUIRE</a></p>

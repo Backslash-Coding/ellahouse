@@ -232,6 +232,7 @@ img { max-width: 100%; height: auto; }
 .image-text .inner .text ul li { position: relative; color: var(--color-grey); }
 .image-text .inner .text ul li::before { content: ''; display: block; width: 11px; height: 2px; background: var(--color-dark); position: absolute; top: 12px; left: -22px; }
 .image-text .inner .text .buttons { margin: 32px 0 0 0; }
+.image-text .inner .text a { color: var(--color-dark); text-decoration: underline; }
 
 .image-text .inner .image a.play { position: relative; display: block; }
 .image-text .inner .image a.play::before { content: ''; display: block; width: 51px; height: 51px; background: transparent url('../img/ico/play.webp') no-repeat center center; position: absolute; top: 20px; left: 20px; z-index: 10; }
