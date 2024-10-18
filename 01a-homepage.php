@@ -12,6 +12,9 @@
                     <ul>
                         <li>It's a house</li>
                         <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        <li>It's a house</li>
+                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
                     </ul>
                     <div class="white round buttons"><a href="#">Button</a></div>
                 </div>
