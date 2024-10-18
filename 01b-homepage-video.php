@@ -6,8 +6,18 @@
         <div class="hero">
             <video autoplay muted loop playsinline src="img/tmp/video.mp4"></video>
             <div class="inner">
-                <h1>You wanted the<br>ultimate workspace</h1>
-                <p>We created it for you in the heart of Georgian Dublin</p>
+                <div class="hero-overlay">
+                    <h1>You wanted the<br>ultimate workspace</h1>
+                    <p>We created it for you in the heart of Georgian Dublin</p>
+                    <ul>
+                        <li>It's a house</li>
+                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        <li>It's a house</li>
+                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                    </ul>
+                    <div class="white round buttons"><a href="#">Button</a></div>
+                </div>
             </div>
         </div>
     </section>
