@@ -10,11 +10,11 @@
                     <h1>You wanted the<br>ultimate workspace</h1>
                     <p>We created it for you in the heart of Georgian Dublin</p>
                     <ul>
-                        <li>It's a house</li>
-                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
-                        <li>It's a house</li>
-                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
-                        <li><a href="#">ELLA HOUSE BROCHURE</a></li>
+                        <li>Dublin's finest flexible workspace development</li>
+                        <li>Prime CBD park facing location</li>
+                        <li>Ten bespoke meeting rooms and amenities supported by an expert hospitality team</li>
+                        <li>Thoughtfully designed break out and lounge spaces</li>
+                        <li>Beautiful garden spaces for meetings and events</li>
                     </ul>
                     <div class="white round buttons"><a href="#">Button</a></div>
                 </div>
